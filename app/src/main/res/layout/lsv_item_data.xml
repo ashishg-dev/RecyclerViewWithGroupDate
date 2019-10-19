@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:padding="12dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+    <TextView
+            android:id="@+id/textViewReleaseDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="02-02-2018"
+            android:layout_alignParentEnd="true"
+            android:textSize="12dp"
+            android:fontFamily="casual"
+    />
+
+    <TextView
+            android:id="@+id/textViewMovieName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Movie Name"
+            android:layout_below="@+id/textViewReleaseDate"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-black"
+    />
+
+    <TextView
+            android:id="@+id/textViewRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rating: 6/10"
+            android:layout_below="@+id/textViewMovieName"
+            android:textSize="16dp"
+    />
+
+</RelativeLayout>
